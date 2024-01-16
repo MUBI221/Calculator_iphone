@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:id="@+id/fieldContainer"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="horizontal">
+
+
+
+    <EditText
+        android:id="@+id/inputTextField"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30sp"
+
+        android:gravity="center|end"
+        android:textColor="@color/white"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <TableRow>
+            <Button
+                android:text="C"
+                android:backgroundTint="@color/gray"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:width="60dp"
+                android:height="90dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:onClick="btn_cancel"/>
+
+            <Button
+                android:text="+/-"
+                android:backgroundTint="@color/gray"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:width="60dp"
+                android:height="90dp"
+                android:textSize="20sp"
+                android:onClick="btn_cancel"/>
+
+            <Button android:text="%"
+                android:backgroundTint="@color/gray"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:width="60dp"
+                android:height="90dp"
+                android:textSize="20sp"
+                android:onClick="btn_cancel"/>
+
+            <Button android:text="÷"
+                android:backgroundTint="@color/orange"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:width="60dp"
+                android:height="90dp"
+                android:textSize="20sp"
+                android:onClick="btn_cancel"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:text="7"
+                android:backgroundTint="@color/dark_gray"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:width="60dp"
+                android:height="90dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:onClick="btn_cancel"/>
+
+            <Button
+                android:text="8"
+                android:backgroundTint="@color/dark_gray"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:width="60dp"
+                android:height="90dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:onClick="btn_cancel"/>
+
+            <Button
+                android:text="9"
+                android:backgroundTint="@color/dark_gray"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:width="60dp"
+                android:height="90dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:onClick="btn_cancel"/>
+
+            <Button
+                android:text="X"
+                android:backgroundTint="@color/orange"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:width="60dp"
+                android:height="90dp"
+                android:textSize="20sp"
+                android:onClick="btn_cancel"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:text="4"
+                android:backgroundTint="@color/dark_gray"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:width="60dp"
+                android:height="90dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:onClick="btn_cancel"/>
+
+            <Button
+                android:text="5"
+                android:backgroundTint="@color/dark_gray"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:width="60dp"
+                android:height="90dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:onClick="btn_cancel"/>
+
+            <Button
+                android:text="6"
+                android:backgroundTint="@color/dark_gray"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:width="60dp"
+                android:height="90dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:onClick="btn_cancel"/>
+
+            <Button android:text="−"
+                android:backgroundTint="@color/orange"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:width="60dp"
+                android:height="90dp"
+                android:textSize="20sp"
+                android:onClick="btn_cancel"/>
+        </TableRow>
+        <TableRow>
+            <Button android:text="1"
+                android:backgroundTint="@color/dark_gray"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:width="60dp"
+                android:height="90dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:onClick="btn_cancel"/>
+
+            <Button android:text="2"
+                android:backgroundTint="@color/dark_gray"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:width="60dp"
+                android:height="90dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:onClick="btn_cancel"/>
+
+            <Button android:text="3"
+                android:backgroundTint="@color/dark_gray"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:width="60dp"
+                android:height="90dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:onClick="btn_cancel"/>
+
+            <Button android:text="+"
+                android:backgroundTint="@color/orange"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:width="60dp"
+                android:height="90dp"
+                android:textSize="20sp"
+                android:onClick="btn_cancel"/>
+        </TableRow>
+        <TableRow>
+            <Button android:text="0"
+                android:layout_span="2"
+                android:textAlignment="textStart"
+                android:backgroundTint="@color/dark_gray"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:width="90dp"
+                android:height="90dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:onClick="btn_cancel"/>
+
+
+            <Button android:text="."
+                android:backgroundTint="@color/dark_gray"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:width="60dp"
+                android:height="90dp"
+                android:textSize="20sp"
+                android:onClick="btn_cancel"/>
+
+            <Button android:text="="
+                android:backgroundTint="@color/orange"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:width="60dp"
+                android:height="90dp"
+                android:textSize="20sp"
+                android:onClick="btn_cancel"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
+</LinearLayout>
